@@ -1,0 +1,8 @@
+prefix=/home/mowen/newznzc_ws/install
+
+Name: mecharm_pi
+Description: Description of mecharm_pi
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: std_msgs actionlib

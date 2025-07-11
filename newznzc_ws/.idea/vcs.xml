@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/src/imu_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/mycobot_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/open_karto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/rf2o_laser_odometry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/robot_pose_ekf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/slam_karto" vcs="Git" />
+  </component>
+</project>

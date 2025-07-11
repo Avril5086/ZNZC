@@ -1,0 +1,8 @@
+prefix=/home/mowen/newznzc_ws/install
+
+Name: grab
+Description: Description of grab
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rosmsg rospy std_msgs message_runtime

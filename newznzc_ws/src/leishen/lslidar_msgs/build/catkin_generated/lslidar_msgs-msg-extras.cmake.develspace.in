@@ -1,0 +1,2 @@
+set(lslidar_msgs_MESSAGE_FILES "/home/mowen/mowen_robot/src/mowen_lidar/lsx10/lslidar_msgs/msg/LslidarPacket.msg;/home/mowen/mowen_robot/src/mowen_lidar/lsx10/lslidar_msgs/msg/LslidarPoint.msg;/home/mowen/mowen_robot/src/mowen_lidar/lsx10/lslidar_msgs/msg/LslidarScan.msg;/home/mowen/mowen_robot/src/mowen_lidar/lsx10/lslidar_msgs/msg/LslidarSweep.msg;/home/mowen/mowen_robot/src/mowen_lidar/lsx10/lslidar_msgs/msg/LslidarDifop.msg")
+set(lslidar_msgs_SERVICE_FILES "")

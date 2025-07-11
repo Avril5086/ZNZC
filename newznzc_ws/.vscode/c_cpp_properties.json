@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mowen/newznzc_ws/devel/include/**",
+        "/home/mowen/test_ws/devel/include/**",
+        "/home/mowen/astra_ws/devel/include/**",
+        "/home/mowen/ydlidar_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/mowen/sdk_ws/devel/include/**",
+        "/home/mowen/astra_ws/src/ros_astra_camera/include/**",
+        "/home/mowen/newznzc_ws/src/car_bringup/include/**",
+        "/home/mowen/newznzc_ws/src/grab/include/**",
+        "/home/mowen/newznzc_ws/src/imu_tools/imu_complementary_filter/include/**",
+        "/home/mowen/newznzc_ws/src/imu_tools/imu_filter_madgwick/include/**",
+        "/home/mowen/test_ws/src/laser_scan_matcher/include/**",
+        "/home/mowen/newznzc_ws/src/leishen/lslidar_driver/include/**",
+        "/home/mowen/test_ws/src/robot_description/moxing/include/**",
+        "/home/mowen/newznzc_ws/src/mpc_local_planner-master/mpc_local_planner/include/**",
+        "/home/mowen/newznzc_ws/src/open_karto/include/**",
+        "/home/mowen/newznzc_ws/src/OrbbecSDK_ROS/include/**",
+        "/home/mowen/newznzc_ws/src/pso_global_planner-master/include/**",
+        "/home/mowen/newznzc_ws/src/rf2o_laser_odometry/include/**",
+        "/home/mowen/newznzc_ws/src/robot_pose_ekf/include/**",
+        "/home/mowen/test_ws/src/motion_tracker/yahboomcar_astra/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

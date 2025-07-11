@@ -1,0 +1,59 @@
+1.打开一个终端，运行主节点
+roscore
+
+2.打开第二个终端，连接小车底盘
+rosrun car_bringup newt.py
+
+3.打开第三个终端，运行键盘控制
+rosrun mbot_teleop mbot_teleop.py
+
+4.打开第四个终端，运行建图文件
+roslaunch /home/mowen/newznzc_ws/src/gmapping.launch
+
+5.使用键盘控制小车，建图
+
+6.打开第五个终端，运行保存地图代码
+roslaunch nav_demo nav02_map_save.launch
+
+7.关闭以上所有终端，到此步，完成建图
+
+8.以下是导航
+
+9.新打开第一个终端，运行主节点
+roscore
+
+10.新打开第二个终端，连接小车底盘
+rosrun car_bringup newt.py
+
+11.新打开第三个终端，运行导航
+roslaunch /home/mowen/newznzc_ws/src/nav777.launch
+
+12.以下是实现自主定点导航
+
+13.新打开第四个终端，打印点的信息
+rostopic echo /move_base_simple/goal
+
+14.在rviz中，给小车发点
+
+15.将13步中获得的信息填入1.py中(1.py文件在主目录下)
+
+16.关闭以上所有终端，到此步，完成自主定点导航的所有操作
+
+17.再次新打开第一个终端，运行主节点
+roscore
+
+18.再次新打开第二个终端，连接小车底盘
+rosrun car_bringup newt.py
+
+19.再次新打开第三个终端，运行导航
+roslaunch /home/mowen/newznzc_ws/src/nav777.launch
+
+
+20.再次新打开第四个终端，运行实时识别代码（以下是在同一个终端中的代码）
+conda activate
+cd yolov5-master
+python3 detect.py
+
+21.再次新打开第五个终端，运行1.py
+python 1.py
+

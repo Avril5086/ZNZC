@@ -1,0 +1,25 @@
+1、新工作空间的安装部署
+   将newznzc_ws文件夹放入主目录
+   cd ~/newznzc_ws
+   catkin_make
+   sudo chmod 777 -R .
+   echo "source ~/newznzc_ws/devel/setup.bash" >> ~/.bashrc
+2、完成rules.d的替换
+   将needs文件夹放入主目录
+   cd ~/needs
+   sudo cp * /etc/udev/rules.d/
+   重启
+3、安装库
+   sudo apt-get install ros-melodic-imu-tools ros-melodic-rviz-imu-plugin
+   sudo apt-get install ros-melodic-robot-localization
+4、建图
+   roslaunch car_bringup gmapping.launch
+   遥控器慢速控制车跑完全程
+   保存地图：roslaunch nav_demo nav02_map_save.launch
+5、导航
+   roslaunch nav_demo nav02_map_save.launch
+   rosrun car_bringup newt.py  发送速度给底盘
+   通过多点导航程序发布目标点
+
+   
+

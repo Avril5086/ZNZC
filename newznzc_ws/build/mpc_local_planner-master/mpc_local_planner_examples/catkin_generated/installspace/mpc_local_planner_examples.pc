@@ -1,0 +1,8 @@
+prefix=/home/mowen/newznzc_ws/install
+
+Name: mpc_local_planner_examples
+Description: Description of mpc_local_planner_examples
+Version: 0.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
